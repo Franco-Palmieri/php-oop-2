@@ -1,28 +1,15 @@
 <?php 
+ 
+    require_once('animals.php');
     class Eshop{
 
         public $name;
 
         public $address;
-    }
 
-    //---------------------
-
-    class Product{
-
-        public $price;
+        public $products = [];
 
     }
 
-    class SportProduct extends Product{
-
-    }
-
-    class HouseProduct extends Product{
-        
-    }
-
-    class Teachproduct extends Product{
-        
-    }
+ 
 ?>
