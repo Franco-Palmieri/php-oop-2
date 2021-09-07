@@ -9,6 +9,9 @@
 
         public $products = [];
 
+        public function addProduct(Product $nameProduct) {
+            $this->products[] = $nameProduct;
+        }
     }
 
  
